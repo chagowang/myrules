@@ -1,0 +1,17 @@
+# > YouTube 主站与移动端 API
+DOMAIN-SUFFIX,youtube.com,PROXY
+DOMAIN-SUFFIX,googlevideo.com,PROXY
+DOMAIN-SUFFIX,ytimg.com,PROXY
+DOMAIN-SUFFIX,ggpht.com,PROXY
+DOMAIN-SUFFIX,youtubei.googleapis.com,PROXY
+
+# > YouTube 辅助域名与缩写短链
+DOMAIN-SUFFIX,youtu.be,PROXY
+DOMAIN-SUFFIX,yt.be,PROXY
+DOMAIN-SUFFIX,youtube-nocookie.com,PROXY
+DOMAIN-SUFFIX,youtube-ui.l.google.com,PROXY
+DOMAIN-SUFFIX,ytkids.com,PROXY
+
+# > 排除 YouTube Music 专属域名（防止混淆）
+DOMAIN,music.youtube.com,REJECT-DROP
+DOMAIN-SUFFIX,music.youtube.com,REJECT-DROP

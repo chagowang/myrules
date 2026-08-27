@@ -1,0 +1,14 @@
+# > YouTube Music 域名匹配
+DOMAIN-SUFFIX,music.youtube.com
+DOMAIN,music.youtube.com
+
+# > YouTube 核心服务依赖（音频流与认证）
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,youtubei.googleapis.com
+
+# > Google 用户与账户验证（防止加载不出个人播放列表）
+DOMAIN-SUFFIX,accounts.google.com
+DOMAIN-SUFFIX,apis.google.com
